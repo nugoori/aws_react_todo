@@ -1,5 +1,6 @@
 import { css } from "@emotion/react";
 
+
 export const SLayout = (isShow) => css`
     position: relative;
     z-index: -1;
@@ -8,13 +9,6 @@ export const SLayout = (isShow) => css`
     height: 100%;
     background-color: #eaeaea;
 `;
-
-
-
-
-
-
-
 
 
 

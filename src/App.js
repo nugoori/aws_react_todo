@@ -6,6 +6,7 @@ import { Global } from '@emotion/react';
 import * as S from "./styles/common";
 import MainLayout from './components/MainLayout/MainLayout';
 import Today from './pages/Today/Today';
+import Calender from './pages/Calender/Calender';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Routes >
           <Route path="/today" element={ <Today /> }/>
           <Route path="/upcoming" />
-          <Route path="/calender" />
+          <Route path="/calender" element={ <Calender /> }/>
           <Route path="/stickywall" />
         </Routes>
       </MainLayout>
